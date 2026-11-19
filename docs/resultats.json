@@ -1,0 +1,45 @@
+{
+  "n_lignes": 4241,
+  "n_train": 3531,
+  "n_test": 710,
+  "n_pays": 193,
+  "periode": "2000–2023",
+  "positif_train": 0.416,
+  "positif_test": 0.5,
+  "correlation": 0.111,
+  "croissance_mediane": 7.57,
+  "top_pays": "Serbia, Lao PDR, Kyrgyz Republic",
+  "manq_imp": 0.0,
+  "manq_open": 0.0,
+  "manq_gdp": 0.74,
+  "manq_pcap": 0.0,
+  "manq_croiss": 4.55,
+  "n_colonnes": 7,
+  "cv_reference": 0.0,
+  "cv_foret": 0.545,
+  "test_f1_reference": 0.0,
+  "test_acc_reference": 0.5,
+  "test_f1": 0.449,
+  "test_acc": 0.523,
+  "test_precision": 0.531,
+  "test_rappel": 0.389,
+  "test_auc": 0.561,
+  "meilleurs_parametres": "{'clf__max_depth': 6, 'clf__min_samples_leaf': 5}",
+  "matrice_confusion": [
+    [
+      233,
+      122
+    ],
+    [
+      217,
+      138
+    ]
+  ],
+  "importances": {
+    "imports_growth": 0.477,
+    "trade_openness": 0.091,
+    "gdp_growth": 0.197,
+    "log_imports": 0.104,
+    "gdp_per_capita": 0.131
+  }
+}

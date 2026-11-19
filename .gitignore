@@ -1,0 +1,21 @@
+# Environnement Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Fichiers LaTeX temporaires
+*.aux
+*.log
+*.out
+*.toc
+*.nav
+*.snm
+*.fls
+*.fdb_latexmk
+presentation/*.tex~
+
+# Système
+.DS_Store
+Thumbs.db
