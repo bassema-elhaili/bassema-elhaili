@@ -8,3 +8,4 @@ nbconvert==7.17.2
 ipykernel
 pypandoc-binary==3.9
 weasyprint==70.0
+edge-tts  # uniquement pour régénérer la voix off de video/demonstration.mp4

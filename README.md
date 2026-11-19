@@ -43,7 +43,8 @@ Objectif annoncé avant expérimentation : F1 ≥ 0,40 et supérieur à la réf�
 │   ├── presentation.pdf         # exactement 6 diapositives
 │   └── presentation.tex         # source LaTeX
 └── video/
-    └── README.md                # consignes pour la vidéo de 60-90 s
+    ├── demonstration.mp4        # 87 s, 720p, voix off française
+    └── README.md                # plan de la vidéo et note sur la voix
 ```
 
 ## Reproduction
@@ -72,7 +73,7 @@ Graine fixée à 42, chemins relatifs, aucune clé d'API.
 - [x] Six diapositives : `presentation/presentation.pdf` + source `.tex`
 - [x] Figures : `figures/`
 - [x] README, dépendances, déclaration IA, fiche sujet, sources
-- [ ] Vidéo MP4 (60–90 s, 720p) : à enregistrer personnellement, voir `video/README.md`
+- [x] Vidéo MP4 (87 s, 720p) : `video/demonstration.mp4` (voix off synthétique, voir `video/README.md`)
 - [ ] Formulaire officiel : https://forms.gle/SmfW9kbcNbsz4Q8a7
 
 Le dépôt porte le nom `bassema-elhaili` (créé avant l'attribution) ; la convention de l'énoncé est `CodeApogee-Nom-Groupe`.
